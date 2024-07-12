@@ -15,5 +15,5 @@ The terminal will tell you if the connection is successful, and the module blink
 
 If you have the first module connected already and want to connect to an additional one, turn on the second module so that its blue light is blinking. Then run discover_uuid. Then, go to uart_osc1 and update the UUID. **Open a different terminal to run uart_osc1.py**. It will not work if the uart_osc0 and 1 are run in the same terminal. Our GUI supports 4 module connection but can be expanded under modification. Just make sure each uart_oscx file is run in a separate terminal. 
 
-## Start
+## Start GUI
 Now with all modules connected, open any Processing file and run it. Follow the instruction on the GUI to control the modules.
