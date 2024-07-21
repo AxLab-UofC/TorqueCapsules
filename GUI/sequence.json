@@ -1,0 +1,28 @@
+{
+  "name": "Untitled",
+  "motors": [{
+    "address": "127.0.0.1:5005",
+    "actions": [
+      {
+        "duration": 1,
+        "type": "SPEED",
+        "speed": 125
+      },
+      {
+        "duration": 1,
+        "type": "BRAKE",
+        "speed": 0
+      },
+      {
+        "duration": 1,
+        "type": "SPEED",
+        "speed": 125
+      },
+      {
+        "duration": 1,
+        "type": "BRAKE",
+        "speed": 0
+      }
+    ]
+  }]
+}
